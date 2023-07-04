@@ -1,0 +1,44 @@
+
+  .container-fluid {
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+  
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+  }
+   
+  #btn{
+    display: inline-block;
+     border-radius: 30px;
+     padding: 16px 34px;
+    text-align: center;
+    color: white;
+    border: none;
+  background: #0963FA;
+  }
+
+  #btn:hover{
+    background-image: linear-gradient(to right, #01BDFC 0%, #01BDFC 51%, #0963FA 100%);
+    background-position: right center;
+  }
+  .heading-h2{
+    text-align: center;
+
+  }
+
+
