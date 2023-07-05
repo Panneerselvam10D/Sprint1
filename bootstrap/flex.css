@@ -1,0 +1,30 @@
+.item{
+    
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;;
+    border-color: black;
+    height: 80px;
+    width: 80px;
+    text-align: center ;
+    
+
+}
+.container{
+    margin: 150px auto;
+    width: 80%;
+    height: 500px;
+    border: 10px solid black;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item1{
+    flex-shrink: 1;
+}
