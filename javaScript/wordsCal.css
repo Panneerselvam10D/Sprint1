@@ -1,0 +1,32 @@
+html,body{
+   margin: 0;
+   background-color: #be7a7a;
+
+}
+
+#container{
+    height: 400px;
+    width: 350px;
+    background-color: black;
+    margin: 250px auto;
+}
+
+h2{
+    color: whitesmoke;
+    margin: 40px 40px;
+}
+
+#container div , #container h2{
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin: 30px;
+    font-weight: 700;
+    padding: 8px;
+}
+#result {
+    color: whitesmoke;
+}
